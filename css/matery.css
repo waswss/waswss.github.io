@@ -2294,8 +2294,13 @@ body.DarkMode #posts-chart {
 }
 /*toc目录滤镜*/
 body.DarkMode .toc-widget{
-  filter: invert(1);
+  filter: invert(0.8);
 }
+
+body.DarkMode .toc-widget .toc-list-item {
+    color: #000
+}
+
 /* Skill bar text color */
 body.DarkMode .skillbar .skill-bar-percent {
     color: #000;

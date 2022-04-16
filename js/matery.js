@@ -171,7 +171,6 @@ $(function () {
     $('.tooltipped').tooltip();
 });
 
-/*2022.4*/
 //提醒开启功能
     setTimeout(function () {
       if ((new Date().getHours() >= 19 || new Date().getHours() < 7) && !$('body').hasClass('DarkMode')) {
